@@ -1,9 +1,3 @@
-update users set
-   nickname = ''
-where nickname = null;
+UPDATE users set nickname = '' where nickname is null;
 
-ALTER TABLE
-  users
-ALTER COLUMN
-  nickname
-    SET NOT NULL;
+ALTER TABLE users ALTER COLUMN nickname SET NOT NULL;
