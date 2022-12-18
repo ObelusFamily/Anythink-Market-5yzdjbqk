@@ -1,0 +1,5 @@
+ALTER TABLE
+  users
+ALTER COLUMN
+  nickname
+    SET NOT NULL;
